@@ -1,0 +1,10 @@
+###create
+POST http://localhost:4004/catalog/trainers
+Content-Type: application/json
+
+{
+    "name": "Shashank11"
+}
+
+### Get request
+GET http://localhost:4004/catalog/trainers
